@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+:root 
+{
+    --main-bg-color:#2455f4 ;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    background-color: var(--main-bg-color);   
+    font-family: 'Lato', sans-serif;
+}
+footer
+{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh; 
+    font-family: 'Lato', sans-serif;
+}
+nav
+{
+display: flex;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    width: 83px;
+    padding: 0 25px;
+}
+nav ul
+{
+    display: flex;
+    justify-content: flex-start;
+    height: 58px;
+    align-items: center;
+}
+nav ul li
+{
+    list-style: none;
+    /* text-decoration: none; */
+    /* color: white;      */
+    padding: 0 23px;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    font-weight:bolder;
+    /* color: rgb(146, 191, 250);  */
+}
+.search
+{
+
+   display: flex;
+   align-items: center;
+   
+}
+.search input
+{
+    width:30vw;
+    height: 27px;
+    border-radius: 2px;
+    margin: 0 56px;
+    padding: 0px 12px;
+}
+.search button
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.container
+{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider
+{  
+    display: flex;
+    align-items: center;
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+   
+}
+#ax
+{
+    height: 500px;
+    width: 1233px;
+}
+.card
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    /* padding: 22px; */
+    max-width: 91vw;
+    margin:  37px auto;
+    background-color: whitesmoke;
+}
+.card-items
+{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction:column; 
+    margin: 0 15px;
+    margin: 0 15px;
+}
+.cards
+{
+    display: flex;
+    overflow: hidden;
+}
+/* h2
+{
+   padding-bottom: 25px;
+} */
+.c
+{
+ color: green;
+
+}
+.c:hover
+{
+    color: #2455f4;
+    cursor:pointer;
+}
+#a
+{
+    padding-left: 32px;
+}
